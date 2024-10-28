@@ -10,3 +10,5 @@ The data for this project was collected using scripts from oii-fsds-wikipedia. F
 the file functions.py is a helper file that includes all of our functions necessary for analysis
 
 the ipynb two_directions.ipynb contains all of our analysis for the Wikipedia revisions project
+
+the Two directions.pptx is a Powerpoint summary of our findings 
