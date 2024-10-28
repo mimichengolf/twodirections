@@ -124,7 +124,8 @@ def find_superfans(df):
     return compressed_df, filtered_df, superfans
 
 def cummulative_edits (data, period='2W'):
-    '''this function takes a dataframe of Wikipedia revision history and aggregates 
+    '''
+    this function takes a dataframe of Wikipedia revision history and aggregates 
         - the number of revisions per period
     @params:
         data: DataFrame with 'timestamp' column
@@ -171,7 +172,8 @@ def prepare_biweekly_data(data, period='2W'):
 
 
 def includes_string(string, column, df):
-    '''function to check for if the string exists in a instance of the row we are investigating
+    '''
+    function to check for if the string exists in a instance of the row we are investigating
     - this function is better for analyzing the column 'comment' since each comment describes 
     what the editor was revising for 
     @params:
